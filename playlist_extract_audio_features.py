@@ -1,7 +1,6 @@
-import config
 import requests
 import pandas as pd
-
+import config
 
 playlist_url = 'https://open.spotify.com/playlist/3HpvkxzzB3K0TBZSlSdk47?si=e8db8f8f1db84f1e'
 
