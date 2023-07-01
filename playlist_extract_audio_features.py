@@ -73,6 +73,7 @@ class extractData():
     def df_to_csv(self):
         path = 'whatavibe.csv'
         self.trackDataDf.to_csv(path, encoding= 'utf-8', decimal=',')
+        print("Sucesso ao extrair os dados!")
 
 
 extractData()
